@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "legacyscoreboard",
+  "version": "1.0.0",
+  "name": "Legacy Scoreboard",
+  "description": "LEGACY SMP sidebar scoreboard with custom logo and icons.",
+  "authors": ["You"],
+  "environment": "*",
+  "entrypoints": { "main": ["com.example.legacyscoreboard.LegacyScoreboard"] },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
